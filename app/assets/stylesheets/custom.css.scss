@@ -1,0 +1,66 @@
+@import "bootstrap";
+@import "font-awesome";
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+$white: rgba(255, 255, 255, 1);
+$black: rgba(0, 0, 0, 1);
+$transparentWhite: rgba(255, 255, 255, 0.5);
+$transparentBlack: rgba(0, 0, 0, 0.5);
+
+body{
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 18px;
+	background-color: none;
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	padding-top: 75px;
+	min-height: 100%;
+}
+
+::selection{
+	background-color: $transparentWhite;
+	color: $transparentBlack;
+}
+
+.page-header{
+	min-height: 800px;
+	background: none;
+	border: none;
+	color: $transparentBlack;
+	padding-top: 300px;
+
+	h1{
+		font-size: 75px;
+	}
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.jumbotron{
+	padding-top: 75px;
+	color: $black;
+	margin: 0;
+	background: none;
+
+	h1{
+		padding-top: 25px;
+	}
+}
+
+#contact{
+	.btn{
+		margin-left: 50%;
+	}
+}
+
+.center{
+	text-align: center;
+}
+
+.backed{
+	background-color: white;
+}
