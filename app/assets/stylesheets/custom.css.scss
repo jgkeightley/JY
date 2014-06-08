@@ -49,6 +49,10 @@ body{
 		padding-top: 250px;
 		font-size: 75px;
 	}
+
+	h2{
+		color: $transparentWhite;
+	}
 }
 
 .navbar{
@@ -88,7 +92,9 @@ body{
 
 #contact{
 	.btn{
-		margin-left: 50%;
+		font-family: 'Oswald', Arial, sans-serif;
+		font-size: 25px;
+		width: 100%;
 	}
 }
 
