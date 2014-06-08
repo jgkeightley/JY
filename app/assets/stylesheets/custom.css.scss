@@ -86,6 +86,34 @@ body{
 	}
 }
 
+#background{
+	background-image: url('https://farm6.staticflickr.com/5453/7115766919_97a50c2858_h.jpg');
+	color: $white;
+	background-size: 100%;
+	background-position: 40%;
+	background-repeat: no-repeat;
+}
+
+#your-visa{
+	background-image: url('https://farm8.staticflickr.com/7118/7115768323_7f9b554e0f_h.jpg');
+	color: $white;
+	background-size: 100%;
+	background-position: 40%;
+	background-repeat: no-repeat;	
+}
+
+#business-success{
+	background-image: url('https://farm6.staticflickr.com/5453/7115766919_97a50c2858_h.jpg');
+	color: $white;
+	background-size: 100%;
+	background-position: 40%;
+	background-repeat: no-repeat;
+}
+
+.container{
+	padding: 25px 0 25px 0;
+}
+
 #contact{
 	.btn{
 		margin-left: 50%;
